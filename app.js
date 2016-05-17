@@ -90,7 +90,7 @@ loadtester.command('fire <url>')
 		let remainingTime = options.duration || 10;
 		options.http = httpOptions;
 		loadtester.log("");
-		var bar = new progressBar('Firing tiny hamsters against ${url} [:bar] :percent :etas', {
+		var bar = new progressBar('Firing tiny hamsters against server [:bar] :percent :etas', {
 			complete: '=',
 			incomplete: ' ',
 			width: 50,
