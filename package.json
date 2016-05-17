@@ -11,6 +11,7 @@
   "dependencies": {
     "async": "^2.0.0-rc.5",
     "moniker": "^0.1.2",
+    "progress": "^1.1.8",
     "vorpal": "^1.10.10"
   }
 }
